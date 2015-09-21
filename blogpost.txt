@@ -1,3 +1,30 @@
 Here is the start of the future blog post.
 It needs to be in markdown format I think.
 
+1) Create a repo locally, then push it to github
+
+2) Create a github repo, then clone it locally
+==============================================
+
+1:	mkdir <new repo>
+	cd <new repo>
+	git status
+
+git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+	git init
+	<add, create, files, dirs>
+	git add <file or dir>
+	git commit -m "this is what I changed.."
+	git push
+
+git push
+fatal: No configured push destination.
+
+	git remote add origin git@github.com....
+	git push -u origin master
+	<more changes, adds, commits>
+	git push
+
+
