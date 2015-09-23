@@ -1,3 +1,9 @@
+>#To discover the current working directory your commandline cursor is sitting at, type the following:
+
+* pwd
+* see several names separated by "/" on a single line
+* each name is a subdirectory of the name to the left
+* the concatonation of all parent directories in a single string is the "path" for the current directory you are sitting in at the command line.
 
 >#Here is how to find the path in OSX Yosemite Macbook Pro graphical user interface:
 
