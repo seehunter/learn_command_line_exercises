@@ -42,3 +42,18 @@ the local branch may simply be:
 
 	git push
 
+make some changes, add them, commit them
+
+	git add <filename>
+	git commit -m "here is what I added"
+	git status
+
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+	git push    or...
+	git push -u origin master
+	git status
+
