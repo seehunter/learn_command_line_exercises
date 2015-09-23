@@ -1,5 +1,5 @@
 Here is the start of the future blog post.
-It needs to be in markdown format I think.
+It will need to be in markdown format I think.
 
 1) Create a repo locally, then push it to github
 
@@ -27,4 +27,18 @@ fatal: No configured push destination.
 	<more changes, adds, commits>
 	git push
 
+this fails miserably if a Readme is present on
+remote GitHub origin and on local branch. Once
+the remote Readme is removed, then you must undo 
+the damage and redo the push to align with origin
+master branch on the remote Github..
+
+	git remote rm origin
+	git remote add origin <ssh url>
+	git push -u origin master
+
+all is happy now and future pushes from within
+the local branch may simply be:
+
+	git push
 
