@@ -1,14 +1,5 @@
 
-|Command    |Means|
-|----------:|:---:|
-|pwd        |print working dir|
-|hostname|computer nw name|
-|mkdir|create dir|
-|cd|change dir|
-|ls|list dir|
-
-#Here is how to find the path in OSX Yosemite Macbook Pro
-graphical user interface:
+>#Here is how to find the path in OSX Yosemite Macbook Pro graphical user interface:
 
 * at command line, type pwd for the pathname you wish to find
 * move cursor to lower left corner face icon and hover to see "finder" displayed
