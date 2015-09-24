@@ -26,10 +26,15 @@ ls -aF
 > If no ".git/" is listed, then I would type:
 
 git status 
+
 cd .. 
+
 ls -aF 
+
 git status 
+
 cd .. 
+
 ls -aF 
 
 > The status will reveal what state my git sharing is in (if any exists), and by walking up the tree of directories I will soon discover the local branch pointing to origin master on GitHub.
