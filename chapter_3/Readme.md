@@ -25,10 +25,10 @@ ls -aF
 > If it displays ".git/", then I know I am sitting in my local branch pointing up to origin master on GitHub.
 > If no ".git/" is listed, then I would type:
 
-git status \n
-cd .. \n
-ls -aF \n
-git status \n
+git status 
+cd .. 
+ls -aF 
+git status 
 cd .. \n
 ls -aF \n
 
