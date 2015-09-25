@@ -1,7 +1,7 @@
 Git Troubleshooting While Learning
 ==============================================
 
-#1. Create a repo locally, then push it to github
+##Create a repo locally, then push it to github
 ---
 
 >mkdir <new repo>
