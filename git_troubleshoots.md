@@ -2,8 +2,6 @@ Git Troubleshooting While Learning
 ==============================================
 
 #1. Create a repo locally, then push it to github
-
-#2. Create a github repo, then clone it locally
 ---
 
 >mkdir <new repo>
