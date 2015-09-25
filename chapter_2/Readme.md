@@ -13,7 +13,7 @@
 I ran `pwd` in the chapter two directory, which displayed /Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_2
 
 
-#Answers to Chapter Two Questions (not in English, of course):
+#Details for Chapter Two Activities (Yes, this is a feature not asked for, so I have over-delivered. Yet I was reluctant to part with my prior work):
 
 >##To discover the current working directory your commandline cursor is sitting at, type the following:
 
