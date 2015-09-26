@@ -18,26 +18,13 @@ hostname
 
 Are you on your local machine?
 
-> To tell if my iTerm terminal commandline cursor is sitting on my local branch pointing to origin master branch on GitHub, I would type the following and look for a directory named .git in my current directory:
+> To confirm I am on my local machine and did not sit down at someone else's MacBook Pro, I would type the following to see if Topaz Sue is displayed: `hostname`
 
-ls -aF
+(master) Sue Uyetake
+Topaz-Sue:chapter_3 $ hostname
+Topaz-Sue
 
-> If it displays ".git/", then I know I am sitting in my local branch pointing up to origin master on GitHub.
-> If no ".git/" is listed, then I would type:
-
-git status 
-
-cd .. 
-
-ls -aF 
-
-git status 
-
-cd .. 
-
-ls -aF 
-
-> The status will reveal what state my git sharing is in (if any exists), and by walking up the tree of directories I will soon discover the local branch pointing to origin master on GitHub.
+(master) Sue Uyetake
+Topaz-Sue:chapter_3 $
 
 
-> 
