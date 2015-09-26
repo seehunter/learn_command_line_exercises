@@ -21,10 +21,13 @@ Are you on your local machine?
 > To confirm I am on my local machine and did not sit down at someone else's MacBook Pro, I would type the following to see if Topaz Sue is displayed: `hostname`
 
 (master) Sue Uyetake
+
 Topaz-Sue:chapter_3 $ hostname
+
 Topaz-Sue
 
 (master) Sue Uyetake
+
 Topaz-Sue:chapter_3 $
 
 
