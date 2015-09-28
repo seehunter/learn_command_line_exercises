@@ -22,14 +22,15 @@ Chapter Four Do More
 >
 >(master) Sue Uyetake
 >Topaz-Sue:learn_command_line_exercises $ touch ./chapter_4/"another tmp"/"one BA"/"two BA"/"three BA"/"four BA"/"five BA"/"six BA"/"seven BA"/"eight BA"/"nine BA"/"ten BA"/.git.keep
->
+
 *Make a directory with a space in the name by putting quotes around it: mkdir "I Have Fun"
 >see above
+
 *If the temp directory already exists then you'll get an error. Use cd to change to a work directory that you can control and try it there. On windows Desktop is a good place.
 >Topaz-Sue:learn_command_line_exercises $ mkdir ./chapter_4/tmp
-mkdir: ./chapter_4/tmp: File exists
-
-(master) Sue Uyetake
+>mkdir: ./chapter_4/tmp: File exists
+>
+>(master) Sue Uyetake
 
 
 Chapter Four English Questions
