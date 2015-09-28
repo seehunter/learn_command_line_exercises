@@ -132,11 +132,30 @@ Chapter Five English Questions
 
 3. Can you go to the slash temp directory?
 ---
->We can go to the root slash tmp directory when we explicitly name it as in `cd /tmp`
+>We can go to the root slash tmp directory when we explicitly name it as in `cd /tmp`, but I don't think that is what is wanted. I THINK this is the same question as above, so here is the output.
+
+>Topaz-Sue:learn_command_line_exercises $ pwd
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises
+>
+>(master) Sue Uyetake
+>Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp
+>
+>(master) Sue Uyetake
+>Topaz-Sue:tmp $ pwd
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_5/tmp
+
 
 4. Can you go to the slash temp slash log directory?
 ---
-> I can go to the slash tmp slash log directory by typing `cd /tmp/log`
+> If it exists, I can go to the slash tmp slash log directory by typing `cd /tmp/log`, but again I don't think the root directories are sought and there is no /tmp/log directory. I checked with an `ls -F /tmp`.
+
+>Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp/log
+>bash: cd: ./chapter_5/tmp/log: No such file or directory
+>
+>(master) Sue Uyetake
+>Topaz-Sue:learn_command_line_exercises $ mkdir ./chapter_5/tmp/log
+>(master) Sue Uyetake
+>Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp/log
 
 5. What does the .. argument to cd do? 
 ---
