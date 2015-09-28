@@ -150,11 +150,13 @@ Chapter Five English Questions
 > If it exists, I can go to the slash tmp slash log directory by typing `cd /tmp/log`, but again I don't think the root directories are sought and there is no /tmp/log directory. I checked with an `ls -F /tmp`.
 
 >Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp/log
+>
 >bash: cd: ./chapter_5/tmp/log: No such file or directory
 >
 >(master) Sue Uyetake
 >Topaz-Sue:learn_command_line_exercises $ mkdir ./chapter_5/tmp/log
 >(master) Sue Uyetake
+>
 >Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp/log
 
 5. What does the .. argument to cd do? 
