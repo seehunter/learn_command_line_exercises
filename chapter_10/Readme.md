@@ -122,3 +122,7 @@ English Questions
 >
 >(master) Sue Uyetake
 
+#Robocopy Defined
+---
+>Robocopy is a windows commandline "robust copy" command that will not copy open files and is scoffed at by the book's author.
+
