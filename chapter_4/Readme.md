@@ -51,20 +51,16 @@ Chapter Four English Questions
 2. Can you make a log directory in your class directory?
 ---
 >Yes, from wherever my cursor resides I can use an absolute path specification to create the log directory in my class directory.
-
-Topaz-Sue:davinci_coders_t3_2015 $ pwd
-/Users/Topaz/workspace/davinci_coders_t3_2015
-
-Topaz-Sue:davinci_coders_t3_2015 $ cd
-
-Topaz-Sue:~ $ pwd
-/Users/Topaz
-
-Topaz-Sue:~ $ mkdir /Users/Topaz/workspace/davinci_coders_t3_2015/tmp
-
-Topaz-Sue:~ $ ls -F /Users/Topaz/workspace/davinci_coders_t3_2015
-Icon?                          my_name.txt
-building_the_toolbelt_t3_2015/ practice/
-homework/                      tmp/
-in_class/
+>
+>Topaz-Sue:chapter_4 $ pwd
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_4
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_4 $ mkdir /Users/Topaz/workspace/davinci_coders_t3_2015/log
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_4 $ ls -ld /Users/Topaz/workspace/davinci_coders_t3_2015/log
+>drwxr-xr-x  2 Topaz  staff  68 Sep 29 00:19 /Users/Topaz/workspace/davinci_coders_t3_2015/log/
+>
+>(master) Sue Uyetake
 
