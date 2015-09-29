@@ -14,12 +14,27 @@ Chapter Five Do More
 >(master) Sue Uyetake
 
 *cd back to temp with one command, but not further above that.
+> EITHER..
 >Topaz-Sue:joe $ cd -
 >/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_5
 >
 >(master) Sue Uyetake
 >Topaz-Sue:chapter_5 $ pwd
 >/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_5
+>
+>(master) Sue Uyetake
+>
+> OR..
+>
+>Topaz-Sue:joe $ pwd
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_5/tmp/stuff/things/frank/joe
+>
+>(master) Sue Uyetake
+>Topaz-Sue:joe $ cd ../../../../
+>
+>(master) Sue Uyetake
+>Topaz-Sue:tmp $ pwd
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_5/tmp
 >
 >(master) Sue Uyetake
 
@@ -41,6 +56,8 @@ Chapter Five Do More
 >
 >Topaz-Sue:Documents $ pwd
 >/Users/Topaz/Documents
+>
+>To see in GUI, click Finder-Documents
 
 *cd to your Downloads directory, then find it with your file browser.
 >Topaz-Sue:learn_command_line_exercises $ pwd
@@ -58,6 +75,8 @@ Chapter Five Do More
 >
 >Topaz-Sue:Downloads $ pwd
 >/Users/Topaz/Downloads
+>
+>To see in GUI, click Finder-Downloads
 
 *Find another directory with your file browser, then cd to it.
 >Topaz-Sue:learn_command_line_exercises $ cd ~/Desktop/
@@ -132,23 +151,31 @@ Chapter Five English Questions
 
 3. Can you go to the slash temp directory?
 ---
->We can go to the root slash tmp directory when we explicitly name it as in `cd /tmp`, but I don't think that is what is wanted. I THINK this is the same question as above, so here is the output.
-
+>We can go to the root slash tmp directory when we explicitly name it as in `cd /tmp`
+>
 >Topaz-Sue:learn_command_line_exercises $ pwd
 >/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises
 >
 >(master) Sue Uyetake
->Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp
+>Topaz-Sue:learn_command_line_exercises $ cd /tmp
 >
->(master) Sue Uyetake
+>
 >Topaz-Sue:tmp $ pwd
->/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_5/tmp
-
+>/tmp
 
 4. Can you go to the slash temp slash log directory?
 ---
-> If it exists, I can go to the slash tmp slash log directory by typing `cd /tmp/log`, but again I don't think the root directories are sought and there is no /tmp/log directory. I checked with an `ls -F /tmp`.
-
+> If it exists, I can go to the slash tmp slash log directory by typing `cd /tmp/log`, but it does not exist so you will get an appropriate error message.
+>
+>Topaz-Sue:learn_command_line_exercises $ pwd
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises
+>
+>(master) Sue Uyetake
+>Topaz-Sue:learn_command_line_exercises $ cd /tmp/log/
+>bash: cd: /tmp/log/: No such file or directory
+>
+>(master) Sue Uyetake
+>
 >Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp/log
 >
 >bash: cd: ./chapter_5/tmp/log: No such file or directory
