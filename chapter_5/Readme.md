@@ -165,7 +165,7 @@ Chapter Five English Questions
 
 4. Can you go to the slash temp slash log directory?
 ---
-> If it exists, I can go to the slash tmp slash log directory by typing `cd /tmp/log`, but it does not exist so you will get an appropriate error message.
+> If it exists, I can go to the slash tmp slash log directory by typing `cd /tmp/log`, but it does not exist so you will get an appropriate error message. Afterwards, I created it and encountered a little strangeness with the tmp linking to another place. All turned out well.
 >
 >Topaz-Sue:learn_command_line_exercises $ pwd
 >/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises
@@ -185,6 +185,41 @@ Chapter Five English Questions
 >(master) Sue Uyetake
 >
 >Topaz-Sue:learn_command_line_exercises $ cd ./chapter_5/tmp/log
+
+>Topaz-Sue:chapter_5 $ ls /tmp
+>/tmp@
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_5 $ mkdir /tmp/log
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_5 $ ls /tmp
+>/tmp@
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_5 $ ls -l /tmp
+>lrwxr-xr-x@ 1 root  wheel  11 Apr 14 14:06 /tmp@ -> private/tmp
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_5 $ mkdir /tmp/log/
+>mkdir: /tmp/log/: File exists
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_5 $ ls -l /tmp/
+>total 0
+>prw-rw-rw-  1 Topaz  wheel    0 Sep 19 08:32 4EF1BD2D-53C0-4821-B62B-E40AB481E171_IN|
+>prw-rw-rw-  1 Topaz  wheel    0 Sep 19 08:32 4EF1BD2D-53C0-4821-B62B-E40AB481E171_OUT|
+>prw-rw-rw-  1 Topaz  wheel    0 Sep 14 17:39 EC2D9CB2-F3FC-48FE-A759-83711ACF1CE7_IN|
+>prw-rw-rw-  1 Topaz  wheel    0 Sep 14 17:39 EC2D9CB2-F3FC-48FE-A759-83711ACF1CE7_OUT|
+>drwx------  2 Topaz  wheel   68 Sep 28 07:17 KSDownloadAction.LjeVL11LcF/
+>drwx------  3 Topaz  wheel  102 Sep 29 00:55 KSOutOfProcessFetcher.501.HVXI9pQwBk_bgiVJaTNhiQNhqxc=/
+>drwx------  2 Topaz  wheel   68 Sep 28 07:17 KSOutOfProcessFetcher.501.I5ci1K_TwCwqo1sKvc0siaBbJTw=/
+>drwx------  3 Topaz  wheel  102 Sep 12 02:03 com.apple.launchd.4RISk2rrVB/
+>drwx------  3 Topaz  wheel  102 Sep 12 02:03 com.apple.launchd.d4ipcapn4g/
+>drwxr-xr-x  2 Topaz  wheel   68 Sep 29 00:57 log/
+>
+>(master) Sue Uyetake
+
 
 5. What does the .. argument to cd do? 
 ---
