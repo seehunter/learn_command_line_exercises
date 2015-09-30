@@ -89,14 +89,35 @@ English Questions
 >(master) Sue Uyetake
 >Topaz-Sue:chapter_10 $ touch foo.txt
 >
->(master) Sue Uyetake
->Topaz-Sue:chapter_10 $ cp -p foo.txt ./tmp/
+>/Users/Topaz/workspace/davinci_coders_t3_2015/homework/learn_command_line_exercises/chapter_10
 >
 >(master) Sue Uyetake
->Topaz-Sue:chapter_10 $ ls tmp
->foo.txt  foo_tmp
+>Topaz-Sue:chapter_10 $ ls
+>Readme.md  anoth_dir/ foo.txt    orig_dir/  third_dir/ tmp/
 >
 >(master) Sue Uyetake
+>Topaz-Sue:chapter_10 $ cp -p foo.txt /tmp
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_10 $ ls /tmp
+>/tmp@
+>
+>(master) Sue Uyetake
+>Topaz-Sue:chapter_10 $ cd /tmp
+>
+>Topaz-Sue:tmp $ pwd
+>/tmp
+>
+>Topaz-Sue:tmp $ ls
+>4EF1BD2D-53C0-4821-B62B-E40AB481E171_IN|                KSOutOfProcessFetcher.501.I5ci1K_TwCwqo1sKvc0siaBbJTw=/
+>4EF1BD2D-53C0-4821-B62B-E40AB481E171_OUT|               com.apple.launchd.4RISk2rrVB/
+>EC2D9CB2-F3FC-48FE-A759-83711ACF1CE7_IN|                com.apple.launchd.d4ipcapn4g/
+>EC2D9CB2-F3FC-48FE-A759-83711ACF1CE7_OUT|               foo.txt
+>KSDownloadAction.LjeVL11LcF/                            log/
+>KSOutOfProcessFetcher.501.HVXI9pQwBk_bgiVJaTNhiQNhqxc=/
+>
+>Topaz-Sue:tmp $
+>
 
 2. Can you copy .bash_profile in your home directory to the current directory?
 ---
